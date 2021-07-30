@@ -15,7 +15,8 @@ spec:
       port:
         number: 80
   rules:
-    - http:
+    - host: appleluck.com
+      http:
         paths:
           - path: /mybox
             pathType: Prefix
